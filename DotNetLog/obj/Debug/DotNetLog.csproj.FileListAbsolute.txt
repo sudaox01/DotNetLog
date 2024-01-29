@@ -1,0 +1,5 @@
+e:\visual studio 2012\Projects\DotNetLog\DotNetLog\bin\Debug\DotNetLog.dll
+e:\visual studio 2012\Projects\DotNetLog\DotNetLog\bin\Debug\DotNetLog.pdb
+e:\visual studio 2012\Projects\DotNetLog\DotNetLog\obj\Debug\DotNetLog.csprojResolveAssemblyReference.cache
+e:\visual studio 2012\Projects\DotNetLog\DotNetLog\obj\Debug\DotNetLog.dll
+e:\visual studio 2012\Projects\DotNetLog\DotNetLog\obj\Debug\DotNetLog.pdb
