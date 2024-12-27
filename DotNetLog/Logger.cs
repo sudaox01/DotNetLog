@@ -7,8 +7,7 @@ namespace DotNetLog
 {
     public class Logger
     {
-        // Config, Configure your options here. This will support embedded app XML if used as a DLL soon, This is planned but this project is currently still in the works
-        // and needs a lot of bug fixing, features, etc. It is nowhere near complete yet.
+        // Project is still in the works and needs a lot of bug fixing, features, etc. It is nowhere near complete yet.
 
         private static bool LogLib_FileLog = false; // False - Don't log to file, true - Log to file
         private static string LogLib_FileName = "log.log"; // File to log to
