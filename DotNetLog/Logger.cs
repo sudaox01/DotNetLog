@@ -10,8 +10,22 @@ namespace DotNetLog
         // Config, Configure your options here. This will support embedded app XML if used as a DLL soon, This is planned but this project is currently still in the works
         // and needs a lot of bug fixing, features, etc. It is nowhere near complete yet.
 
-        private static bool LogLib_FileLog = true; // False - Don't log to file, true - Log to file
+        private static bool LogLib_FileLog = false; // False - Don't log to file, true - Log to file
         private static string LogLib_FileName = "log.log"; // File to log to
+        public static void setLogFile(string filename)
+        {
+            /// <summary>
+            /// Set file that log is stored in for file logging
+            /// </summary>
+            LogLib_FileName = filename;
+        }
+        public static void setFileLogStatus(bool toggle)
+        {
+            /// <summary>
+            /// Toggle logging to file
+            /// </summary>
+            LogLib_FileLog = toggle;
+        }
         private static void doLog(int logType, string logMsg, string className)
         {
             /// <summary>

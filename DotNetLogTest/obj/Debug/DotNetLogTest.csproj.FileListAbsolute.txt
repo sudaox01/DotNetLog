@@ -1,0 +1,8 @@
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\bin\Debug\DotNetLogTest.exe.config
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\bin\Debug\DotNetLogTest.exe
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\bin\Debug\DotNetLogTest.pdb
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\bin\Debug\DotNetLog.dll
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\bin\Debug\DotNetLog.pdb
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\obj\Debug\DotNetLogTest.csprojResolveAssemblyReference.cache
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\obj\Debug\DotNetLogTest.exe
+C:\Users\Lucy\Downloads\DotNetLog-main\DotNetLog-main\DotNetLogTest\obj\Debug\DotNetLogTest.pdb
