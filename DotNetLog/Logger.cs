@@ -14,6 +14,9 @@ namespace DotNetLog
         private static string LogLib_FileName = "log.log"; // File to log to
         private static void doLog(int logType, string logMsg, string className)
         {
+            /// <summary>
+            /// Manually add a line to the log
+            /// </summary>
             // 0 - Info, 1 - Debug, 2 - Error, 3 - Warning
             string logLabel = "";
             // Error Log
@@ -60,18 +63,30 @@ namespace DotNetLog
         // These are just stub functions to redirect to doLog easily
         public static void Info(string logMsg, string className = "")
         {
+            /// <summary>
+            /// Logs an info line to the log
+            /// </summary>
             doLog(0, logMsg, className);
         }
         public static void Debug(string logMsg, string className = "")
         {
+            /// <summary>
+            /// Logs a debug line to the log
+            /// </summary>
             doLog(1, logMsg, className);
         }
         public static void Error(string logMsg, string className = "")
         {
+            /// <summary>
+            /// Logs a error line to the log
+            /// </summary>
             doLog(2, logMsg, className);
         }
         public static void Warn(string logMsg, string className = "")
         {
+            /// <summary>
+            /// Logs a warning line to the log
+            /// </summary>
             doLog(3, logMsg, className);
         }
     }
