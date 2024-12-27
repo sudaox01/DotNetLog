@@ -41,6 +41,10 @@ namespace DotNetLog
                     logLabel = "WARN";
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     break;
+                case 4:
+                    logLabel = "CRITICAL";
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    break;
             }
             DateTime dt = DateTime.Now;
             string timeVal = dt.ToLongDateString() + " " + dt.ToLongTimeString();
@@ -88,6 +92,13 @@ namespace DotNetLog
             /// Logs a warning line to the log
             /// </summary>
             doLog(3, logMsg, className);
+        }
+        public static void Critical(string logMsg, string className = "")
+        {
+            /// <summary>
+            /// Logs a critical error line to the log
+            /// </summary>
+            doLog(4, logMsg, className);
         }
     }
 }
